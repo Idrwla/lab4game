@@ -1,0 +1,63 @@
+body{
+    background-image: url("img/bg.jpg") ;
+    background-repeat: repeat;
+    margin: 0;
+    color: white;
+}
+div.toolbar{
+    width: 100%;
+    height: 100px;
+    background-color:  #445d69;
+}
+span.toolItem{
+    font-size: 50px;
+    position: relative;
+    margin-left: 50px;
+    top: -15px;
+}
+div.logo{
+    position: relative;
+    display: inline;
+    margin-left: 30px;
+    top: 8px;
+}
+span.myName{
+    position: relative;
+    margin-left: 650px;
+
+}
+.canvas{
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    display: table;
+    position: relative;
+    left: 15%;
+    top: 150px;
+}
+div.rect {
+    width: 250px;
+    height: 250px;
+    border-color: white;
+    border-width: 10px;
+    border-style: solid;
+    display: inline-block;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+div.invoke{
+    position: relative;
+    bottom: -250px;
+    left:35%;
+    width: 100%;
+}
+button{
+    width: 500px;
+    height: 80px;
+    background-color: orange;
+    border-radius: 10px;
+}
+div.bongo{
+    border-color: green;
+}
